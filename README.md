@@ -1,5 +1,21 @@
 # WOW.js [![Build Status](https://secure.travis-ci.org/matthieua/WOW.svg?branch=master)](http://travis-ci.org/matthieua/WOW)
+### How use HTML
+```
+<div class="your-element wow fadeInUp animated " data-wow-duration="1.5s" data-wow-delay=".6s; animation-name: fadeInUp;">
+............
+</div>
+```
+### Call for your tamplate
+```
+<link rel="stylesheet" href="assets/css/animate.css">
 
+<script src="assets/js/wow.min.js"></script>
+```
+
+### How to use js
+```
+new WOW().init();
+```
 Reveal CSS animation as you scroll down a page.
 By default, you can use it to trigger [animate.css](https://github.com/daneden/animate.css) animations.
 But you can easily change the settings to your favorite animation library.
